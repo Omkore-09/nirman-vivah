@@ -23,7 +23,7 @@ const Form = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/submit', formData);
+      await axios.post('https://nirman-vivah-backend.onrender.com/api/submit', formData);
       setShowCard(true);
       setFormData(initialState); // Reset form fields after successful submission
     } catch (error) {
