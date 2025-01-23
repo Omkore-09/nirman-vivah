@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        maroon: {
+          600: '#800000',
+          700: '#660000',
+        },
+        ivory: '#FFFFF0',
+        gold: {
+          500: '#FFD700',
+        },
+      },
+    },
   },
   plugins: [],
 }
